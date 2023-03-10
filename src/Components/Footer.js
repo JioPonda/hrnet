@@ -1,5 +1,9 @@
 import React from "react";
 
-export function Footer() {
-  return <></>;
+export default function Footer() {
+  return (
+    <footer className="footer">
+      <p>Wealth Health</p>
+    </footer>
+  );
 }
