@@ -33,6 +33,13 @@ label {
   margin-top: 10px;
 }
 
+.select-form {
+  width: 11.5vw;
+}
+
+.modal-style {
+}
+
 .footer {
   display: flex;
   align-items: center;

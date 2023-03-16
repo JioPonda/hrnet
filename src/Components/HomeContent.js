@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { HomeForm } from "./HomeForm";
-import { FormModal } from "./FormModal";
+import { displayModal, FormModal } from "./FormModal";
 
 export function saveEmployee() {
   const firstName = document.getElementById("first-name");
@@ -36,7 +36,7 @@ export default function HomeContent() {
       <NavLink to="/Employer-Liste">View Current Employees</NavLink>
       <h2>Create Employee</h2>
       <HomeForm />
-      <button onclick="saveEmployee()">Save</button>
+      <button onClick={displayModal}>Save</button>
       <FormModal />
     </main>
   );
