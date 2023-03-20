@@ -29,6 +29,7 @@ export function saveEmployee() {
   };
   employees.push(employee);
   localStorage.setItem("employees", JSON.stringify(employees));
+  console.log(employee);
 }
 
 // window.addEventListener("DOMContentLoaded", function () {
@@ -53,11 +54,11 @@ export function saveEmployee() {
 
 export default function HomeContent() {
   return (
-    <main class="container">
+    <main className="container">
       <NavLink to="/Employer-Liste">View Current Employees</NavLink>
       <h2>Create Employee</h2>
       <HomeForm />
-      <button className="button" onClick={displayModal}>
+      <button className="button" onClick={(displayModal, saveEmployee)}>
         Save
       </button>
       <FormModal />

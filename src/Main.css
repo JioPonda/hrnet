@@ -34,7 +34,7 @@ label {
 }
 
 .select-form {
-  width: 11.5vw;
+  width: 8.5vw;
 }
 
 .button {
@@ -45,4 +45,10 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 1440px) {
+  .select-form {
+    width: 11.5vw;
+  }
 }

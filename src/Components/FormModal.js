@@ -18,7 +18,7 @@ export function FormModal() {
         justifyContent: "center",
         alignItems: "center",
         position: "absolute",
-        height: "110%",
+        height: "115%",
         width: "100%",
         backgroundColor: "rgba(0, 0, 0, 0.75)",
         display: "none",
@@ -29,15 +29,18 @@ export function FormModal() {
         onClick={hideModal}
         className="close-modal"
         style={{
-          position: "absolute",
-          bordeRadius: 50,
-          paddingTop: 5,
-          paddingBottom: 10,
-          marginTop: "49vh",
-          marginLeft: "63vw",
+          zIndex: 2,
+          position: "fixed",
+          borderRadius: 20,
+          padding: "5px 9px",
+          marginTop: 490,
+          marginLeft: "65%",
           backgroundColor: "black",
           color: "white",
           fontWeight: 900,
+          "@media screen and (maxWidth: 1440px)": {
+            marginLeft: "73.5%",
+          },
         }}
       >
         X
@@ -45,9 +48,8 @@ export function FormModal() {
 
       <p
         style={{
-          position: "relative",
+          position: "fixed",
           maxWidth: 500,
-          boxSizing: "border - box",
           width: "90%",
           background: "white",
           paddingTop: 15,
@@ -56,8 +58,8 @@ export function FormModal() {
           paddingRigth: 30,
           borderRadius: 8,
           textAlign: "left",
-          marginTop: "50vh",
-          marginLeft: "38vh",
+          marginTop: 500,
+          marginLeft: "38%",
         }}
       >
         Employee Created!
