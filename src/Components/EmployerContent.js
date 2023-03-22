@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Rctable from "./RcTable";
 
 export default function EmployerContent() {
   return (
@@ -7,6 +8,7 @@ export default function EmployerContent() {
       <h1>Current Employees</h1>
       <table id="employee-table" className="display"></table>
       <NavLink to="/Home">Home</NavLink>
+      <Rctable />
     </div>
   );
 }

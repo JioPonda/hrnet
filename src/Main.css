@@ -47,8 +47,8 @@ label {
   justify-content: center;
 }
 
-@media screen and (max-width: 1440px) {
-  .select-form {
-    width: 11.5vw;
-  }
+.table {
+  text-align: center;
+  font-size: 1.25em;
+  word-spacing: 10px;
 }
