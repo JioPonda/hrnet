@@ -254,7 +254,7 @@ export default function FormFieldset() {
       <select className="select-form">
         {states.map((state) => (
           <option value={states.name} key={states.abbreviation}>
-            {state.name}
+            {(states.name, console.log(state))}
           </option>
         ))}
       </select>

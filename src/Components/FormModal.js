@@ -38,6 +38,9 @@ export function FormModal() {
           backgroundColor: "black",
           color: "white",
           fontWeight: 900,
+          "@media screen and (maxWidth: 1440px)": {
+            marginLeft: "73.5%",
+          },
         }}
       >
         X
