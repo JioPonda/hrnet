@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 export default function FormInfos() {
+  const [startDate, setStartDate] = useState(new Date());
   return (
     <>
       <label for="first-name">First Name</label>
@@ -9,11 +12,17 @@ export default function FormInfos() {
       <label for="last-name">Last Name</label>
       <input type="text" id="last-name" />
 
-      <label for="date-of-birth">Date of Birth</label>
-      <input id="date-of-birth" type="text" />
+      <p>Date of Birth</p>
+      <DatePicker
+        selected={startDate}
+        onChange={(date) => setStartDate(date)}
+      />
 
-      <label for="start-date">Start Date</label>
-      <input id="start-date" type="text" />
+      <p>Start Date</p>
+      <DatePicker
+        selected={startDate}
+        onChange={(date) => setStartDate(date)}
+      />
     </>
   );
 }
