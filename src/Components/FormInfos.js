@@ -3,6 +3,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 export default function FormInfos() {
+  const [startBirthDate, setStartBirthDate] = useState(new Date());
   const [startDate, setStartDate] = useState(new Date());
   return (
     <>
@@ -14,8 +15,8 @@ export default function FormInfos() {
 
       <p>Date of Birth</p>
       <DatePicker
-        selected={startDate}
-        onChange={(date) => setStartDate(date)}
+        selected={startBirthDate}
+        onChange={(date) => setStartBirthDate(date)}
       />
 
       <p>Start Date</p>
