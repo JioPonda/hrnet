@@ -1,5 +1,6 @@
 import React from "react";
 
+// Composant comprenant la partie Fieldset du formulaire
 export default function FormFieldset() {
   const states = [
     {

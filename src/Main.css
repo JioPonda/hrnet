@@ -2,6 +2,8 @@
   font-family: "Roboto", sans-serif;
 }
 
+/* NAVBAR */
+
 .title {
   display: flex;
   align-items: center;
@@ -14,6 +16,11 @@
   height: 50px;
   width: auto;
   padding-right: 1vw;
+}
+
+/* HOME PAGE CONTENT */
+.home-content {
+  height: 85vh;
 }
 
 .container {
@@ -45,6 +52,17 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* EMPLOYEE PAGE CONTENT */
+.employer-list {
+  height: 85vh;
+}
+
+.home-link {
+  font-size: 1.5em;
+  color: black;
+  padding: 1%;
 }
 
 .table {

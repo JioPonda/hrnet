@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
+// Composant contenant la partie des information du formulaire
 export default function FormInfos() {
   const [startBirthDate, setStartBirthDate] = useState(new Date());
   const [startDate, setStartDate] = useState(new Date());

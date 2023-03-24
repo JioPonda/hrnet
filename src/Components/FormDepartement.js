@@ -1,5 +1,6 @@
 import React from "react";
 
+// Composant de la partie Departement du formulaire
 export function FormDepartement() {
   return (
     <>

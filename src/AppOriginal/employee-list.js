@@ -1,3 +1,5 @@
+// /* ATTENTION CECI EST LE FICHIERS DU PROJET DE BASE */
+
 $(function () {
   const employees = JSON.parse(localStorage.getItem("employees"));
 

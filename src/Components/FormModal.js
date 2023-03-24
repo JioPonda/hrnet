@@ -1,15 +1,17 @@
 import React from "react";
 
+// fonction d'affichage de la modale
 export function displayModal() {
   const modal = document.querySelector("#confirmation");
   modal.style.display = "block";
 }
-
+// fonction de cache de la modale
 export function hideModal() {
   const modal = document.querySelector("#confirmation");
   modal.style.display = "none";
 }
 
+// Composant contenant la modal
 export function FormModal() {
   return (
     <div
