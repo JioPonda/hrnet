@@ -18,12 +18,14 @@ export default function FormInfos() {
       <DatePicker
         selected={startBirthDate}
         onChange={(date) => setStartBirthDate(date)}
+        id="date-of-birth"
       />
 
       <p>Start Date</p>
       <DatePicker
         selected={startDate}
         onChange={(date) => setStartDate(date)}
+        id="start-date"
       />
     </>
   );

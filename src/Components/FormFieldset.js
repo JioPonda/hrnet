@@ -251,7 +251,7 @@ export default function FormFieldset() {
       <label for="city">City</label>
       <input id="city" type="text" />
 
-      <label for="state">State</label>
+      <p>State</p>
       <select className="select-form">
         {states.map((state) => (
           <option value={states.name} key={states.abbreviation}>
@@ -259,6 +259,7 @@ export default function FormFieldset() {
           </option>
         ))}
       </select>
+
       <label for="zip-code">Zip Code</label>
       <input id="zip-code" type="number" />
     </fieldset>

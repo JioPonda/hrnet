@@ -20,7 +20,13 @@
 
 /* HOME PAGE CONTENT */
 .home-content {
-  height: 85vh;
+  height: 100vh;
+}
+
+.employer-link {
+  font-size: 1.5em;
+  color: black;
+  padding: 1%;
 }
 
 .container {
@@ -56,7 +62,7 @@ label {
 
 /* EMPLOYEE PAGE CONTENT */
 .employer-list {
-  height: 85vh;
+  height: 100vh;
 }
 
 .home-link {
