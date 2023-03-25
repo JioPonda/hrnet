@@ -4,7 +4,7 @@ import React from "react";
 export function FormDepartement() {
   return (
     <>
-      <label for="department">Department</label>
+      <p>Department</p>
       <select name="department" id="department">
         <option>Sales</option>
         <option>Marketing</option>

@@ -8,10 +8,10 @@ export default function FormInfos() {
   const [startDate, setStartDate] = useState(new Date());
   return (
     <>
-      <label for="first-name">First Name</label>
+      <p>First Name</p>
       <input type="text" id="first-name" />
 
-      <label for="last-name">Last Name</label>
+      <p>Last Name</p>
       <input type="text" id="last-name" />
 
       <p>Date of Birth</p>

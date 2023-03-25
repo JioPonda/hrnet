@@ -245,22 +245,22 @@ export default function FormFieldset() {
     <fieldset className="address">
       <legend>Address</legend>
 
-      <label for="street">Street</label>
+      <p>Street</p>
       <input id="street" type="text" />
 
-      <label for="city">City</label>
+      <p>City</p>
       <input id="city" type="text" />
 
       <p>State</p>
-      <select className="select-form">
+      <select className="select-form" id="state">
         {states.map((state) => (
-          <option value={states.name} key={states.abbreviation}>
+          <option value={state.name} key={state.abbreviation}>
             {state.name}
           </option>
         ))}
       </select>
 
-      <label for="zip-code">Zip Code</label>
+      <p>Zip Code</p>
       <input id="zip-code" type="number" />
     </fieldset>
   );
