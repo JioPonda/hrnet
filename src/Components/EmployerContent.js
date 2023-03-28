@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Rctable from "./RcTable";
+import Table from "./Table";
 
 // Composant d'affichage du contenu de la page employee
 export default function EmployerContent() {
@@ -11,7 +11,7 @@ export default function EmployerContent() {
         Home
       </NavLink>
       {/* le composant RcTable sert a afficher un tableau ou nos infos sont envoyé */}
-      <Rctable />
+      <Table />
     </div>
   );
 }

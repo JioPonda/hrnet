@@ -30,6 +30,7 @@ export function saveEmployee() {
 
   dataTable.push(formData);
   console.log(dataTable);
+  displayModal();
 }
 
 export default function HomeContent() {
@@ -40,7 +41,7 @@ export default function HomeContent() {
       </NavLink>
       <h2>Create Employee</h2>
       <HomeForm />
-      <button className="button" onClick={(displayModal, saveEmployee)}>
+      <button className="button" onClick={saveEmployee}>
         Save
       </button>
       <FormModal />
