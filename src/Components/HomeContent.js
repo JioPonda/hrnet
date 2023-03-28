@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { HomeForm } from "./HomeForm";
 import { displayModal, FormModal } from "./FormModal";
 
-export const dataTable = [];
+export const data = [];
 
 export function saveEmployee() {
   const firstName = document.getElementById("first-name");
@@ -17,19 +17,19 @@ export function saveEmployee() {
   const department = document.getElementById("department");
 
   const formData = {
-    firstNameIndex: firstName.value,
-    lastNameIndex: lastName.value,
-    dateOfBirthIndex: dateOfBirth.value,
-    startDateIndex: startDate.value,
-    departementIndex: department.value,
-    streetIndex: street.value,
-    cityIndex: city.value,
-    stateIndex: state.value,
-    zipCodeIndex: zipCode.value,
+    firstName: firstName.value,
+    lastName: lastName.value,
+    startDate: startDate.value,
+    departement: department.value,
+    birthDate: dateOfBirth.value,
+    street: street.value,
+    city: city.value,
+    state: state.value,
+    zipCode: zipCode.value,
   };
 
-  dataTable.push(formData);
-  console.log(dataTable);
+  data.push(formData);
+  console.log(data);
   displayModal();
 }
 
