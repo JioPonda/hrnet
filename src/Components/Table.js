@@ -124,8 +124,8 @@ export default function Table() {
   return (
     <DataTable
       columns={columns}
-      // rows={data}
-      rows={mockedData}
+      rows={data}
+      // rows={mockedData}
       showingLength={showingLength}
     />
   );
