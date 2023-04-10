@@ -13,7 +13,7 @@ export function hideModal() {
 }
 
 // Composant contenant la modal
-export function FormModal() {
+export function Modal() {
   return (
     <div id="confirmation" className="modal">
       <p onClick={hideModal} className="close-modal">

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Table from "./Table";
+import DataTable from "./dataTable";
 
 // Composant d'affichage du contenu de la page employee
 export default function EmployerContent() {
@@ -10,8 +10,7 @@ export default function EmployerContent() {
       <NavLink to="/Home" className="home-link">
         Home
       </NavLink>
-      {/* le composant RcTable sert a afficher un tableau ou nos infos sont envoyé */}
-      <Table />
+      <DataTable />
     </div>
   );
 }

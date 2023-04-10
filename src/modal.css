@@ -15,7 +15,7 @@
   border-radius: 20px;
   padding: 5px 9px;
   margin-top: 490px;
-  margin-left: 63.8%;
+  margin-left: 60.8%;
   background-color: black;
   color: white;
   font-weight: 900;
@@ -38,6 +38,6 @@
 
 @media screen and (max-width: 1440px) {
   .close-modal {
-    margin-left: 75.5%;
+    margin-left: 71.5%;
   }
 }

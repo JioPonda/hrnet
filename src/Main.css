@@ -76,3 +76,20 @@ label {
   font-size: 1.25em;
   word-spacing: 10px;
 }
+
+.table-container {
+  font-size: 1rem;
+}
+
+.select-entries {
+  margin: 10px 0 0 4px;
+  height: 29px;
+  width: 75px;
+  border-radius: 0.2em;
+  text-align: end;
+  outline: none;
+}
+
+.sc-dmqHEX span {
+  color: black;
+}
