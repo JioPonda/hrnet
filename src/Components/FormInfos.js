@@ -19,6 +19,7 @@ export default function FormInfos() {
         selected={startBirthDate}
         onChange={(date) => setStartBirthDate(date)}
         id="date-of-birth"
+        dateFormat="dd/MM/yyyy"
       />
 
       <p>Start Date</p>
@@ -26,6 +27,7 @@ export default function FormInfos() {
         selected={startDate}
         onChange={(date) => setStartDate(date)}
         id="start-date"
+        dateFormat="dd/MM/yyyy"
       />
     </>
   );
