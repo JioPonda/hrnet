@@ -3,6 +3,7 @@ import { Table } from "react-data-list-table-component";
 import { data } from "./HomeContent";
 // import { mockedData } from "../data/MockedData";
 
+//Const servant a afficher un message si nos données sont vides
 const emptyData = [
   {
     firstName: "",
@@ -17,6 +18,7 @@ const emptyData = [
   },
 ];
 
+//Composant comprenant le tableau des employées
 export default function DataTable() {
   // const mockedTitle = Object.keys(mockedData[0]);
 
