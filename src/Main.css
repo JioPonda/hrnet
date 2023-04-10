@@ -47,7 +47,7 @@ label {
 }
 
 .select-form {
-  width: 8.5vw;
+  width: 7.4vw;
 }
 
 .button {
@@ -92,4 +92,10 @@ label {
 
 .sc-dmqHEX span {
   color: black;
+}
+
+@media screen and (max-width: 1440px) {
+  .select-form {
+    width: 11.5vw;
+  }
 }
