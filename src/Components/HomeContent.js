@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { HomeForm } from "./HomeForm";
-import { displayModal, Modal } from "./FormModal";
-// import { Modal, displayModal } from "@jioponda/modalhrnet";
+// import { displayModal, Modal } from "./FormModal";
+import { Modal, displayModal } from "@jioponda/modalhrnet";
 
 export const data = [];
 
