@@ -94,8 +94,16 @@ label {
   color: black;
 }
 
+.close-modal {
+  margin-left: 63.5%;
+}
+
 @media screen and (max-width: 1440px) {
   .select-form {
     width: 11.5vw;
+  }
+
+  .close-modal {
+    margin-left: 76.5%;
   }
 }

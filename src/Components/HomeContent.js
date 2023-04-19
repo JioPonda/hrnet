@@ -1,8 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { HomeForm } from "./HomeForm";
-// import { displayModal, Modal } from "./FormModal";
-import { Modal, displayModal } from "@jioponda/modalhrnet";
+import Modal, { displayModal } from "@jioponda/modal/dist/Modal";
 
 export const data = [];
 
@@ -42,10 +41,15 @@ export default function HomeContent() {
       </NavLink>
       <h2>Create Employee</h2>
       <HomeForm />
-      <button className="button" onClick={saveEmployee}>
+      <button
+        className="button"
+        onClick={() => {
+          saveEmployee();
+        }}
+      >
         Save
       </button>
-      <Modal />
+      <Modal Text={"Employee Created!"} />
     </main>
   );
 }

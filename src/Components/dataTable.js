@@ -20,8 +20,6 @@ const emptyData = [
 
 //Composant comprenant le tableau des employées
 export default function DataTable() {
-  // const mockedTitle = Object.keys(mockedData[0]);
-
   if (data.length === 0) {
     const emptytitle = Object.keys(emptyData[0]);
     return (
@@ -39,6 +37,7 @@ export default function DataTable() {
       />
     );
   } else {
+    // const mockedTitle = Object.keys(mockedData[0]);
     const title = Object.keys(data[0]);
     return (
       <Table
