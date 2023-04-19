@@ -41,15 +41,10 @@ export default function HomeContent() {
       </NavLink>
       <h2>Create Employee</h2>
       <HomeForm />
-      <button
-        className="button"
-        onClick={() => {
-          saveEmployee();
-        }}
-      >
+      <button className="button" onClick={saveEmployee}>
         Save
       </button>
-      <Modal Text={"Employee Created!"} />
+      <Modal Text={"Employee create !"} />
     </main>
   );
 }

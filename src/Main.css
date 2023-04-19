@@ -54,6 +54,18 @@ label {
   margin-top: 25px;
 }
 
+.close-modal {
+  z-index: 2;
+  position: fixed;
+  border-radius: 20px;
+  padding: 5px 9px;
+  margin-top: 490px;
+  margin-left: 63.5%;
+  background-color: black;
+  color: white;
+  font-weight: 900;
+}
+
 .footer {
   display: flex;
   align-items: center;
@@ -92,10 +104,6 @@ label {
 
 .sc-dmqHEX span {
   color: black;
-}
-
-.close-modal {
-  margin-left: 63.5%;
 }
 
 @media screen and (max-width: 1440px) {
